@@ -243,7 +243,8 @@ func TestResourceAttributes_ApplyOverrides(t *testing.T) {
 		"matching overrides": {
 			overrides: map[string]explorer.Override{
 				"string_attribute": {
-					Description: "new string description",
+					Description:              "new string description",
+					ComputedOptionalRequired: "computed",
 				},
 				"float64_attribute": {
 					Description: "new float64 description",
@@ -269,7 +270,7 @@ func TestResourceAttributes_ApplyOverrides(t *testing.T) {
 				&attrmapper.ResourceStringAttribute{
 					Name: "string_attribute",
 					StringAttribute: resource.StringAttribute{
-						ComputedOptionalRequired: schema.Required,
+						ComputedOptionalRequired: schema.Computed,
 						Description:              pointer("new string description"),
 					},
 				},
