@@ -6,16 +6,14 @@ package oas_test
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/mapper/attrmapper"
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/mapper/oas"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/mapper/attrmapper"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/mapper/oas"
+	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/code"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/datasource"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/provider"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/resource"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/schema"
-	"gopkg.in/yaml.v3"
-
-	"github.com/google/go-cmp/cmp"
 	"github.com/pb33f/libopenapi/datamodel/high/base"
 	"github.com/pb33f/libopenapi/orderedmap"
 )

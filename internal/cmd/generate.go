@@ -13,9 +13,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/config"
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/explorer"
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/mapper"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/config"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/explorer"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/mapper"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/spec"
 
 	"github.com/hashicorp/cli"

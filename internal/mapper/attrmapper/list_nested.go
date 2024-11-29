@@ -5,8 +5,9 @@ package attrmapper
 
 import (
 	"fmt"
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/explorer"
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/mapper/util"
+
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/explorer"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/mapper/util"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/datasource"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/provider"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/resource"

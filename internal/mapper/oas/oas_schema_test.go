@@ -6,8 +6,8 @@ package oas_test
 import (
 	"testing"
 
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/mapper/oas"
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/mapper/oas"
 	"github.com/pb33f/libopenapi/datamodel/high/base"
 )
 

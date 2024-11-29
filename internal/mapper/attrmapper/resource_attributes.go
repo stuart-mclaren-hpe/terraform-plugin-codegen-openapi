@@ -7,7 +7,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/hashicorp/terraform-plugin-codegen-openapi/internal/explorer"
+	"github.com/Apoorva64/terraform-plugin-codegen-openapi/internal/explorer"
 	"github.com/hashicorp/terraform-plugin-codegen-spec/resource"
 )
 
